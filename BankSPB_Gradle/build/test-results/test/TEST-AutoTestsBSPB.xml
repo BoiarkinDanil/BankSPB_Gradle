@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AutoTestsBSPB" tests="10" skipped="0" failures="1" errors="0" timestamp="2025-07-09T06:41:51.664Z" hostname="DESKTOP-IOVRMF3" time="93.065">
+  <properties/>
+  <testcase name="vedNavigation_ToMarketRiskManagement_Test" classname="AutoTestsBSPB" time="8.875"/>
+  <testcase name="BecomeCustomer_Test" classname="AutoTestsBSPB" time="9.534"/>
+  <testcase name="NavigationToAuthorizationIndividual_Test" classname="AutoTestsBSPB" time="8.24"/>
+  <testcase name="officeAtmSearch_SearchByAddress_Test" classname="AutoTestsBSPB" time="7.4"/>
+  <testcase name="searchFunctionality_EnterQuery_Test" classname="AutoTestsBSPB" time="5.269"/>
+  <testcase name="currencyExchange_DollarsToRubles_Test" classname="AutoTestsBSPB" time="8.717"/>
+  <testcase name="regionSelection_ChangeToKaliningrad_Test" classname="AutoTestsBSPB" time="25.043">
+    <failure message="org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[./span/p[text()='Вне региона']] (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: '4.31.0', revision: '1ef9f18787*'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\danil\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57289}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57289/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 517acb7f020b27357fcc6fc938cb9490" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[./span/p[text()='Вне региона']] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\danil\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57289}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57289/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 517acb7f020b27357fcc6fc938cb9490
+	at app//org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at app//org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at app//AutoTestsBSPB.regionSelection_ChangeToKaliningrad_Test(AutoTestsBSPB.java:67)
+	at java.base@21.0.7/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.7/java.lang.reflect.Method.invoke(Method.java:580)
+	at app//org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at app//org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at app//org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at app//org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at app//org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at app//org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at app//org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at app//org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at app//org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at app//org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at app//org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at app//org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at app//org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at app//org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:112)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:54)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:53)
+	at java.base@21.0.7/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base@21.0.7/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:183)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="investors_NavigateToDetailedInformation_Test" classname="AutoTestsBSPB" time="6.076"/>
+  <testcase name="privateBanking_NavigateToGold_ShouldReachGoldPage_Test" classname="AutoTestsBSPB" time="6.9"/>
+  <testcase name="businessNavigation_ToCreditsSM_Test" classname="AutoTestsBSPB" time="7.01"/>
+  <system-out><![CDATA[09:41:51.813 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.6.3
+09:41:52.204 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=137 in cache (valid until 12:13:25 09/07/2025 YEKT)
+09:41:52.206 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome137=137.0.7151.119 in cache (valid until 23:58:39 09/07/2025 YEKT)
+09:41:52.207 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+09:41:52.242 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 137.0.7151.119 found in cache
+09:41:52.243 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\danil\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+09:42:00.539 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.6.3
+09:42:00.555 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=137 in cache (valid until 12:13:25 09/07/2025 YEKT)
+09:42:00.555 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome137=137.0.7151.119 in cache (valid until 23:58:39 09/07/2025 YEKT)
+09:42:00.561 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+09:42:00.571 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 137.0.7151.119 found in cache
+09:42:00.571 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\danil\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+09:42:10.075 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.6.3
+09:42:10.087 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=137 in cache (valid until 12:13:25 09/07/2025 YEKT)
+09:42:10.088 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome137=137.0.7151.119 in cache (valid until 23:58:39 09/07/2025 YEKT)
+09:42:10.088 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+09:42:10.099 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 137.0.7151.119 found in cache
+09:42:10.100 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\danil\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+09:42:18.317 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.6.3
+09:42:18.339 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=137 in cache (valid until 12:13:25 09/07/2025 YEKT)
+09:42:18.341 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome137=137.0.7151.119 in cache (valid until 23:58:39 09/07/2025 YEKT)
+09:42:18.341 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+09:42:18.359 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 137.0.7151.119 found in cache
+09:42:18.360 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\danil\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+09:42:25.716 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.6.3
+09:42:25.726 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=137 in cache (valid until 12:13:25 09/07/2025 YEKT)
+09:42:25.726 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome137=137.0.7151.119 in cache (valid until 23:58:39 09/07/2025 YEKT)
+09:42:25.726 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+09:42:25.735 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 137.0.7151.119 found in cache
+09:42:25.737 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\danil\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+09:42:30.985 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.6.3
+09:42:30.996 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=137 in cache (valid until 12:13:25 09/07/2025 YEKT)
+09:42:30.996 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome137=137.0.7151.119 in cache (valid until 23:58:39 09/07/2025 YEKT)
+09:42:30.996 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+09:42:31.006 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 137.0.7151.119 found in cache
+09:42:31.007 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\danil\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+09:42:39.703 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.6.3
+09:42:39.711 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=137 in cache (valid until 12:13:25 09/07/2025 YEKT)
+09:42:39.713 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome137=137.0.7151.119 in cache (valid until 23:58:39 09/07/2025 YEKT)
+09:42:39.713 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+09:42:39.722 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 137.0.7151.119 found in cache
+09:42:39.722 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\danil\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+09:43:04.743 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.6.3
+09:43:04.769 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=137 in cache (valid until 12:13:25 09/07/2025 YEKT)
+09:43:04.769 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome137=137.0.7151.119 in cache (valid until 23:58:39 09/07/2025 YEKT)
+09:43:04.769 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+09:43:04.775 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 137.0.7151.119 found in cache
+09:43:04.775 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\danil\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+09:43:10.821 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.6.3
+09:43:10.831 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=137 in cache (valid until 12:13:25 09/07/2025 YEKT)
+09:43:10.832 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome137=137.0.7151.119 in cache (valid until 23:58:39 09/07/2025 YEKT)
+09:43:10.832 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+09:43:10.844 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 137.0.7151.119 found in cache
+09:43:10.844 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\danil\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+09:43:17.721 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.6.3
+09:43:17.729 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=137 in cache (valid until 12:13:25 09/07/2025 YEKT)
+09:43:17.730 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome137=137.0.7151.119 in cache (valid until 23:58:39 09/07/2025 YEKT)
+09:43:17.730 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+09:43:17.742 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 137.0.7151.119 found in cache
+09:43:17.742 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\danil\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+]]></system-out>
+  <system-err><![CDATA[июл. 09, 2025 9:41:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 137
+июл. 09, 2025 9:42:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 137
+июл. 09, 2025 9:42:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 137
+июл. 09, 2025 9:42:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 137
+июл. 09, 2025 9:42:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 137
+июл. 09, 2025 9:42:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 137
+июл. 09, 2025 9:42:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 137
+июл. 09, 2025 9:43:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 137
+июл. 09, 2025 9:43:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 137
+июл. 09, 2025 9:43:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+</testsuite>

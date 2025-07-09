@@ -1,0 +1,1 @@
+rootProject.name = "BankSPB_Gradle"
